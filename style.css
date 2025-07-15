@@ -1,0 +1,37 @@
+/* style.css */
+body {
+  font-family: cavolini;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.malla-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.semestre {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.materia {
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.materia.cursada {
+  text-decoration: line-through;
+  background-color: #BADFC9;
+}
+
+.materia.bloqueada {
+  background-color: #478D56;
+  cursor: not-allowed;
+}
