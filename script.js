@@ -23,7 +23,7 @@ const malla = {
   ],
   "4º Semestre": [
     { codigo: "BIO151E", nombre: "Biología de los microorganismos", prereq: ["BIO141C"] },
-    { codigo: "QIM150", nombre: "Química-Física", prereq: ["MAT1100", "FIS109C", "QUIM100I"] }
+    { codigo: "QIM150", nombre: "Química-Física", prereq: ["MAT1100", "FIS109C", "QIM100I"] }
   ],
   "5º Semestre": [
     { codigo: "BIO226E", nombre: "Genética y evolución", prereq: ["BIO141C", "BIO242"] },
